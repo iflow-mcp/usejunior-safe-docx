@@ -20,7 +20,7 @@
     "prepack": "npm run test:run"
   },
   "bin": {
-    "iflow-mcp-usejunior-safe-docx": "./bin/safe-docx.js"
+    "usejunior-safe-docx": "./bin/safe-docx.js"
   },
   "dependencies": {
     "@usejunior/docx-mcp": "^0.6.0"
