@@ -1,8 +1,7 @@
 {
-  "name": "@usejunior/safe-docx",
+  "name": "@iflow-mcp/usejunior-safe-docx",
   "version": "0.6.0",
   "description": "Canonical npm package for the Safe Docx MCP server and CLI",
-  "mcpName": "io.github.usejunior/safe-docx",
   "type": "module",
   "main": "./index.js",
   "types": "./index.d.ts",
@@ -21,8 +20,7 @@
     "prepack": "npm run test:run"
   },
   "bin": {
-    "safe-docx": "./bin/safe-docx.js",
-    "safedocx": "./bin/safe-docx.js"
+    "iflow-mcp_usejunior-safe-docx": "./bin/safe-docx.js"
   },
   "dependencies": {
     "@usejunior/docx-mcp": "^0.6.0"
